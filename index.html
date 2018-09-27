@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="tech.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header id="nav-header">HTML elements</header>
+        <ul id="nav-list">
+            <li class="nav-item"><a href="#<a>" class="nav-link">&lta&gt</a></li>
+            <li class="nav-item"><a href="#<br>" class="nav-link">&ltbr&gt</a></li>
+            <li class="nav-item"><a href="#<div>" class="nav-link">&ltdiv&gt</a></li>
+            <li class="nav-item"><a href="#<hr>" class="nav-link">&lthr&gt</a></li>
+            <li class="nav-item"><a href="#<img>" class="nav-link">&ltimg&gt</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="<a>">
+            <header>&lta&gt</header>
+            <p>Anchor elemnt creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.</p>
+            <p>This element's attributes include:
+                <ul>
+                    <li>download</li>
+                    <li>href</li>
+                    <li>hreflang</li>
+                    <li>ping</li>
+                    <li>referrerpolicy</li>
+                    <li>rel</li>
+                    <li>target</li>
+                    <li>type</li>
+                </ul>
+            </p>
+            Example: <br>
+            <div class="code">
+                <code>
+                    &lta href="https://example.com"&gtWebsite&lt/a&gt <br>
+                    &lta href="#imprint"&gtBack to top&lt/a&gt
+                </code>
+            </div>
+        </section>
+        <section class="main-section" id="<br>">
+            <header>&ltbr&gt</header>
+            <p>The Line Break element produces a line break in text (carriage-return). The text after the line break begins again at the start of the next line of the text block.</p>
+            <p>This element has only one attribute:
+                <ul>
+                    <li>clear</li>
+                </ul>
+            </p>
+            Example: <br>
+            <div class="code">
+                <code>
+                    Text line one &ltbr&gt <br>
+                    Text line two 
+                </code>
+            </div>
+        </section>
+        <section class="main-section" id="<div>">
+            <header>&ltdiv&gt</header>
+            <p>The Content Division element is the generic container for flow content. It has no effect on the content or layout until styled using CSS.</p>
+            <p>This element has no specific attributes. You should use CSS properties or techniques such as CSS Grid or CSS Flexbox to align and position The Content Division element elements on the page.</p>
+            <div class="code">
+                <code>
+                    content <br>
+                    &ltdiv&gt 
+                        <div id="tab" class="code">other content</div> 
+                    &lt/div&gt <br>
+                    more content
+                </code> 
+            </div>
+            
+        </section>
+        <section class="main-section" id="<hr>">
+            <header>&lthr&gt</header>
+            <p>The Thematic Break (Horizontal Rule) element represents a thematic break between paragraph-level elements (for example, a change of scene in a story, or a shift of topic with a section); historically, this has been presented as a horizontal rule or line. While it may still be displayed as a horizontal rule in visual browsers, this element is now defined in semantic terms, rather than presentational terms, so if you wish to draw a horizontal line, you should do so using appropriate CSS.</p>
+            <p>This element's attributes include:
+                <ul>
+                    <li>align</li>
+                    <li>color</li>
+                    <li>noshade</li>
+                    <li>size</li>
+                    <li>width</li>
+                </ul>
+            </p>
+            Example: <br>
+            <div class="code">
+                <code>
+                    &ltp&gt text &lt/p&gt <br>
+                    &lthr&gt <br>
+                    &ltp&gt text &lt/p&gt
+                </code> 
+            </div>
+            
+        </section>
+        <section class="main-section" id="<img>">
+            <header>&ltimg&gt</header>
+            <p>The Image Embed element embeds an image into the document.</p>
+            <p>This element's attributes include:
+                <ul>
+                    <li>alt</li>
+                    <li>crossorigin</li>
+                    <li>decoding</li>
+                    <li>height</li>
+                    <li>importance</li>
+                    <li>ismap</li>
+                    <li>referrerpolicy </li>
+                    <li>sizes</li>
+                    <li>src</li>
+                    <li>srcset</li>
+                    <li>width</li>
+                    <li>usemap</li>
+                </ul>
+            </p>
+            Example: <br>
+            <div class="code">
+                <code>
+                    &ltimg src="url_or_relative_path" alt="image_description"&gt
+                </code>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
